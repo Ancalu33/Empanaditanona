@@ -1,0 +1,188 @@
+/*CSS INDEX EJERCICIO 2*/
+
+/*ESTILOS SECCIONES PRINCIPALES*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px; /*Aprovechando espacio página*/
+}
+
+header{/*CSS Agrupado*/
+    background-color: hsla(32, 94%, 50%, 0.7);/*Aplicando color HSLA*/
+    border-style: dotted;
+    border-radius: 10px;
+    border-color:hsl(0, 100%, 25%);/*Aplicando color HSL*/
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+              
+}
+
+body{
+    background-color: #FFA936;/*Aplicando color RGB*/
+    background-image: url(../IMG/Fondo.png);
+    background-size: 20%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    
+
+}
+
+main{
+    background-color: hsla(32, 94%, 50%, 0.7);
+    float: center;
+    width: auto;
+    overflow: hidden;
+    border: white 8px ridge;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*ESTILOS TITULOS Y PARRAFOS*/
+
+
+h1{/*CSS Agrupado*/
+    color:#0f65ac;
+    font-family: Calibri;    
+    font-size: 40pt;
+    margin: 20px;
+}
+
+h2{/*CSS Agrupado*/
+    color:#CC2A07;
+    text-align: justify;
+    text-decoration: underline;  
+    font-weight: 800;
+    font-family: Calibri;    
+    font-size: 20pt; 
+    margin: 20px; 
+                  
+}
+
+h3{/*CSS Agrupado*/
+    color:#CC2A07;
+    text-align: justify;
+    text-decoration: underline;  
+    font-weight: 800;
+    font-family: Calibri;    
+    font-size: 20pt; 
+    margin: 20px; 
+                  
+}
+
+p{/*CSS Agrupado*/
+   font:  large/150% Calibri;  
+   text-align: justify; 
+   margin: 20px;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*ESTILOS IMAGENES Y ENLACES*/
+
+a:hover{
+     
+    font-family: Calibri;    
+    font-size: 20pt;  
+    
+}
+a{
+    font-family: Calibri;    
+    font-size: 15pt;              
+}
+
+
+img:hover{
+
+    transform: scale(0.9);
+}
+img{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    transition: all 0.5s linear;
+    border-style: solid;        /*Borde imagen*/
+    border-color: #000000;    /*Modificacion borde*/
+    border-collapse: collapse;  /*Modificacion borde*/
+    border-width: 10px;
+}
+/*ESTILOS MENU NAVEGACION*/
+
+/*-------------------------------------------------------------------------------------------------------*/
+.MenuNav{
+    float: left;
+    width: auto;
+    overflow: hidden;
+    border: 5px double;
+}
+.MenuNav a{ 
+   /* background-color: #5c0606;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    
+    */
+        box-shadow:inset 0px 1px 7px 10px #f5978e;
+        background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+        background-color:#f24537;
+        border-radius:9px;
+        border:2px solid #d02718;
+        display: block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Calibri;
+        font-size:15px;
+        font-weight:bold;
+        padding:6px 50px;
+        text-decoration:none;
+        text-shadow:0px -1px 1px #810e05;
+        margin: 5px;
+    }
+    .myButton:hover {
+        background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+        background-color:#c62d1f;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+    
+
+.MenuNav:hover a{
+
+    border-style: solid;  
+    border-color: #0d3a05;    
+    border-collapse: collapse; 
+    transform: scale(0.9);
+    transition: all 0.2s linear;
+   
+}
+
+/*ESTILOS VARIOS*/
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+.box{/*CSS por Clase*/
+    margin: 20px;
+    padding: 20px;
+    width: 60%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color:0%, 0%, 0%,;
+    padding: 5px;
+}
+
+.logo{/*CSS por Clase*/
+    background:#ffffff;
+    width: 30%;
+    margin-left: auto;          /*Centrar la imagen*/
+    margin-right: auto;         /*Centrar la imagen*/
+    margin-top: 20px;
+    display: block;
+    border-style: solid;        /*Borde imagen*/
+    border-color: #000000;    /*Modificacion borde*/
+    border-collapse: collapse;  /*Modificacion borde*/
+    
+                        
+}
